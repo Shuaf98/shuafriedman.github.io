@@ -341,10 +341,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
+.footer-link {
+  display: contents;
+}
 .footer-icon {
   fill: #4267B2;
   width: 17px;
   height: 50%;
+  text-decoration: none;
 }
 .footer-container5 {
   flex: 0 0 auto;
@@ -359,9 +363,13 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
+.footer-link1 {
+  display: contents;
+}
 .footer-icon2 {
   width: 16px;
   height: 16px;
+  text-decoration: none;
 }
 .footer-container6 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -455,7 +463,7 @@
 }
 .examples-container1 {
   width: 100%;
-  height: 3038px;
+  height: 2838px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -508,11 +516,6 @@
 .examples-text10 {
   text-decoration: underline;
 }
-.examples-text11 {
-  color: rgb(100, 116, 139);
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-doubleunit);
-}
 .examples-image1 {
   width: 450px;
   align-self: center;
@@ -520,6 +523,11 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius75);
   margin-bottom: var(--dl-space-space-tripleunit);
+}
+.examples-text11 {
+  color: rgb(100, 116, 139);
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-doubleunit);
 }
 .examples-link2 {
   display: contents;
@@ -549,7 +557,7 @@
 .examples-image2 {
   width: 279px;
   height: 233px;
-  align-self: center;
+  align-self: flex-start;
   box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius75);
@@ -568,7 +576,10 @@
   font-size: 1.875rem;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
+  text-decoration: underline none;
+}
+.examples-text25 {
+  text-decoration: underline;
 }
 .examples-text27 {
   color: rgb(100, 116, 139);

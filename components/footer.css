@@ -53,10 +53,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
+.footer-link {
+  display: contents;
+}
 .footer-icon {
   fill: #4267B2;
   width: 17px;
   height: 50%;
+  text-decoration: none;
 }
 .footer-container5 {
   flex: 0 0 auto;
@@ -71,9 +75,13 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
+.footer-link1 {
+  display: contents;
+}
 .footer-icon2 {
   width: 16px;
   height: 16px;
+  text-decoration: none;
 }
 .footer-container6 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
