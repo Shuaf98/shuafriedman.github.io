@@ -1,32 +1,35 @@
 :root {
-  --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
-  --dl-color-gray-800: #cbcbcbff;
-  --dl-color-gray-900: #D9D9D9;
-  --dl-color-danger-300: #A22020;
-  --dl-color-danger-500: #BF2626;
-  --dl-color-danger-700: #E14747;
+  --dl-color-gray-900: #c3c5c9ff;
+  --dl-size-size-unit: 1rem;
   --dl-color-gray-black: #000000;
   --dl-color-gray-white: #FFFFFF;
-  --dl-space-space-unit: 8px;
-  --dl-color-primary-100: #003EB3;
-  --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #14A9FF;
-  --dl-color-primary-700: #85DCFF;
-  --dl-color-success-300: #199033;
-  --dl-color-success-500: #32A94C;
-  --dl-color-success-700: #4CC366;
+  --dl-color-pimary-300: #0284c7ff;
+  --dl-color-pimary-500: #4aa4e3ff;
+  --dl-color-pimary-700: #c3e5faff;
+  --dl-color-pimary-800: #e3e8efff;
+  --dl-color-pimary-900: #f2f5f9ff;
+  --dl-space-space-unit: 1rem;
+  --dl-size-size-halfunit: 0.5rem;
+  --dl-color-secondary-100: #111729ff;
+  --dl-color-secondary-300: #1e293bff;
+  --dl-color-secondary-400: #334155ff;
+  --dl-color-secondary-500: #677b8eff;
+  --dl-color-secondary-700: #94a3b8ff;
   --dl-radius-radius-round: 50%;
-  --dl-size-size-maxcontent: 1414px;
-  --dl-space-space-halfunit: 4px;
-  --dl-space-space-tenunits: 80px;
-  --dl-radius-radius-radius2: 2px;
+  --dl-size-size-doubleunit: 2rem;
+  --dl-size-size-tripleunit: 3rem;
+  --dl-space-space-halfunit: 0.5rem;
   --dl-radius-radius-radius4: 4px;
-  --dl-radius-radius-radius8: 8px;
-  --dl-space-space-fiveunits: 40px;
-  --dl-space-space-fourunits: 32px;
-  --dl-space-space-doubleunit: 16px;
-  --dl-space-space-tripleunit: 24px;
+  --dl-space-space-fiveunits: 5rem;
+  --dl-radius-radius-radius25: 0.25rem;
+  --dl-radius-radius-radius50: 0.5rem;
+  --dl-radius-radius-radius75: 0.75rem;
+  --dl-space-space-doubleunit: 2rem;
+  --dl-space-space-tripleunit: 3rem;
+  --dl-space-space-twoandhalf: 2.5rem;
+  --dl-space-space-unitandhalf: 1.5rem;
+  --dl-space-space-triplequarter: 0.75rem;
 }
 .teleport-show {
   display: flex !important;
@@ -40,96 +43,101 @@
   list-style-type: none;
   list-style-position: outside;
 }
+.list-item {
+  display: list-item;
+}
 .button {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-900);
   display: inline-block;
   padding: 0.5rem 1rem;
-  font-family: Arial;
-  border-color: var(--dl-color-gray-black);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.list-item {
-  display: list-item;
-}
 .textarea {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-900);
   cursor: auto;
   padding: 0.5rem;
-  font-family: Arial;
-  border-color: var(--dl-color-gray-black);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
 .input {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-900);
   cursor: auto;
   padding: 0.5rem 1rem;
-  font-family: Arial;
-  border-color: var(--dl-color-gray-black);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.Section-Text {
-  font-size: 18px;
-  font-family: Playfair Display;
-  font-weight: 600;
-  line-height: 1.55;
-  letter-spacing: 2;
+.Healine {
+  font-size: 1.875rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
   text-transform: none;
   text-decoration: none;
 }
-.Card-Text {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Playfair Display;
+.TextXL {
+  font-size: 1.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
-  line-height: 1.55;
-  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextSM {
+  font-size: 0.87rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
+}
+.TextXS {
+  font-size: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
   text-transform: none;
   text-decoration: none;
 }
 .Content {
-  font-size: 16px;
-  font-family: Arial;
+  font-size: 1.12rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextMD {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.25;
+  text-decoration: none;
+}
+.Text2XL {
+  font-size: 2.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
   text-transform: none;
   text-decoration: none;
 }
-.Card-Heading {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Overpass;
-  font-weight: 700;
-  line-height: 1.55;
+.Text3XL {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
   text-transform: none;
   text-decoration: none;
 }
-.Anchor {
-  font-size: 16px;
-  font-family: Overpass;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: capitalize;
-  text-decoration: none;
-}
-.Navbar-Link {
-  font-size: 24px;
-  font-family: Overpass;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: none;
-  text-decoration: none;
-}
-.Section-Heading {
-  font-size: 48px;
-  font-family: Overpass;
-  font-weight: 900;
-  line-height: 1.22;
+.TextLG {
+  font-size: 1.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }
