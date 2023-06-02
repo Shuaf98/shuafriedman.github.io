@@ -440,12 +440,13 @@
   background-color: var(--dl-color-gray-black);
 }
 .home-container1 {
-  top: auto;
-  left: auto;
+  top: 0px;
+  left: 0px;
   right: 0px;
-  width: 100%;
+  width: auto;
   bottom: 0px;
-  height: 692px;
+  height: auto;
+  margin: auto;
   display: flex;
   position: absolute;
   align-items: center;
@@ -668,6 +669,7 @@
   right: 0px;
   width: 100%;
   bottom: -1px;
+  height: 39px;
   position: absolute;
   object-fit: cover;
 }
