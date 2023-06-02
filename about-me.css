@@ -22,9 +22,7 @@
 }
 .header-heading {
   color: var(--dl-color-gray-white);
-  font-weight: 700;
   margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
 }
 .header-navlink1 {
   display: contents;
@@ -265,9 +263,6 @@
 @media(max-width: 767px) {
   .header-header {
     background-color: var(--dl-color-gray-white);
-  }
-  .header-heading {
-    color: var(--dl-color-secondary-400);
   }
   .header-container1 {
     display: none;
