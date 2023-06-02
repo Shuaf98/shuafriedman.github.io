@@ -430,7 +430,7 @@
 }
 .home-bg {
   flex: 0 0 auto;
-  width: 1229px;
+  width: 1603px;
   height: 100%;
   display: flex;
   opacity: 0.7;
@@ -443,7 +443,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: auto;
+  width: 1603px;
   bottom: 0px;
   height: auto;
   margin: auto;
@@ -471,11 +471,9 @@
   text-align: center;
 }
 .home-image {
-  top: auto;
-  left: auto;
-  right: 0px;
+  right: -364px;
   width: 100%;
-  bottom: -1px;
+  bottom: -7px;
   height: 37px;
   position: absolute;
   object-fit: cover;
