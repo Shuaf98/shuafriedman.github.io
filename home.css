@@ -669,6 +669,11 @@
   position: absolute;
   object-fit: cover;
 }
+@media(max-width: 1200px) {
+  .home-container1 {
+    width: 1200px;
+  }
+}
 @media(max-width: 991px) {
   .home-cards-container {
     align-items: center;
@@ -687,6 +692,12 @@
   }
 }
 @media(max-width: 767px) {
+  .home-bg {
+    width: 756px;
+  }
+  .home-container1 {
+    width: 323px;
+  }
   .home-section1 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
@@ -696,6 +707,12 @@
   }
 }
 @media(max-width: 479px) {
+  .home-hero {
+    width: 100%;
+  }
+  .home-bg {
+    width: 265px;
+  }
   .home-container2 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
