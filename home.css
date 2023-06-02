@@ -454,6 +454,8 @@
 }
 .home-text {
   color: var(--dl-color-gray-white);
+  width: 265px;
+  height: 84px;
   text-align: center;
 }
 .home-text03 {
@@ -467,6 +469,7 @@
   right: 0px;
   width: 100%;
   bottom: -1px;
+  height: 59px;
   position: absolute;
   object-fit: cover;
 }
@@ -506,13 +509,12 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text04 {
+.home-text07 {
   color: var(--dl-color-secondary-400);
   text-align: center;
 }
 .home-cards-container {
   display: flex;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: flex-start;
   padding-top: var(--dl-space-space-tripleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
@@ -549,13 +551,13 @@
   width: 24px;
   height: 24px;
 }
-.home-text05 {
+.home-text08 {
   color: var(--dl-color-secondary-100);
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   font-family: Open Sans;
 }
-.home-text06 {
+.home-text09 {
   color: var(--dl-color-secondary-700);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -592,13 +594,13 @@
   width: 24px;
   height: 24px;
 }
-.home-text07 {
+.home-text10 {
   color: var(--dl-color-secondary-100);
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   font-family: Open Sans;
 }
-.home-text10 {
+.home-text13 {
   color: var(--dl-color-secondary-700);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -639,7 +641,7 @@
   height: 21px;
   object-fit: contain;
 }
-.home-text11 {
+.home-text14 {
   color: var(--dl-color-secondary-100);
   width: 299px;
   height: 62px;
@@ -651,7 +653,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text12 {
+.home-text15 {
   color: var(--dl-color-secondary-700);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -702,16 +704,16 @@
   .home-card1 {
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-text06 {
+  .home-text09 {
     text-align: left;
   }
   .home-card2 {
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-text10 {
+  .home-text13 {
     text-align: left;
   }
-  .home-text12 {
+  .home-text15 {
     text-align: left;
   }
 }
