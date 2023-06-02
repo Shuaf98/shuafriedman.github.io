@@ -63,6 +63,9 @@
   height: auto;
   margin-left: var(--dl-space-space-halfunit);
 }
+.header-text3 {
+  color: var(--dl-color-gray-white);
+}
 .header-burger-menu {
   display: none;
   align-items: center;
