@@ -236,10 +236,16 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .header-root-class-name {
+  height: auto;
   max-width: 100%;
   margin-bottom: 0px;
 }
 .header-root-class-name1 {
+  height: auto;
+  max-width: 100%;
+}
+.header-root-class-name2 {
+  height: auto;
   max-width: 100%;
 }
 @media(max-width: 991px) {
