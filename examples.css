@@ -439,22 +439,25 @@
   background-color: var(--dl-color-secondary-300);
 }
 .examples-post-details {
-  height: 301px;
+  height: 327px;
   display: flex;
-  position: relative;
   max-width: auto;
   align-self: center;
   box-shadow: 0px 10px 15px -10px #626262;
+  align-items: center;
   padding-top: var(--dl-space-space-triplequarter);
   padding-left: var(--dl-space-space-tripleunit);
   border-radius: var(--dl-radius-radius-radius75);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-triplequarter);
+  justify-content: center;
   background-color: var(--dl-color-secondary-300);
 }
 .examples-text {
   color: var(--dl-color-gray-white);
+  width: auto;
+  height: auto;
   font-size: 1rem;
   align-self: stretch;
   text-align: center;
