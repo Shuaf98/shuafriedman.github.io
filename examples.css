@@ -236,7 +236,11 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .header-root-class-name {
+  max-width: 100%;
   margin-bottom: 0px;
+}
+.header-root-class-name1 {
+  max-width: 100%;
 }
 @media(max-width: 991px) {
   .header-header {
